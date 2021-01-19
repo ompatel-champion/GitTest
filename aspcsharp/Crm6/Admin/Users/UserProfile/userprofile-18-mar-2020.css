@@ -1,0 +1,230 @@
+/* content wrapper and sections */
+#divUserProfile {
+    margin-top: 15px;
+}
+#divUserProfile .ibox.ibox-main {
+    height: 100%;
+    margin-bottom: 0px;
+}
+#divUserProfile .ibox.ibox-main>.ibox-content {
+    padding: 12px 20px 16px;
+    height: 100%;
+}
+#divUserProfile .ibox.ibox-main>.ibox-content>.panel {
+    height: 100%;
+}
+
+/* nav tabs (details, password, sync, etc.) */
+.nav-tabs a[data-toggle] {
+    transition: border-color .4s ease, color .4s ease, text-shadow .4s ease;
+    padding-bottom: 6px;
+}
+.nav-tabs a[data-toggle].active {
+    text-shadow: -1px -1px 0 rgba(30,146,210,.12),1px -1px 0 rgba(30,146,210,.12),-1px 1px 0 rgba(30,146,210,.12),1px 1px 0 rgba(30,146,210,.12);
+    border-color: #1E92D2;
+}
+
+/* profile picture column */
+.col-profile-pic .ibox {
+    margin-right: 15px;
+}
+.col-profile-pic .ibox .ibox-content {
+    padding-top: 22px
+}
+.col-profile-pic .imgProfile-wrapper {
+    position: relative;
+    padding-bottom: 100%;
+    margin-bottom: 20px;
+}
+#imgProfile {
+    position: absolute;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    max-height: 400px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50%;
+}
+
+/* IE11 Fix */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.col-profile-details .panel-body{
+		width:100%!important;
+		max-width:536px!important;
+		display:block !important;
+	}	
+}
+
+@media (max-width: 767px) {
+    .col-profile-pic {
+        margin-bottom: 15px;
+    }
+    .col-profile-pic .ibox {
+        margin-right: 0px;
+    }
+}
+.col-profile-pic .user-info {
+    margin: 4px;
+}
+.col-profile-pic .user-info-name {
+    margin-bottom: 12px;
+}
+.col-profile-pic .user-info-company {
+    margin-bottom: 14px;
+}
+
+/* details column */
+.col-profile-details .panel-heading {
+    margin-bottom: 24px;
+}
+.col-profile-details .tab-pane .ibox-content {
+    padding: 0px;
+}
+.col-profile-details .tab-pane .ibox {
+    margin-bottom: 0px;
+}
+.col-profile-details .col-left>.col-wrapper {
+    margin-right: 20px;
+}
+@media (max-width: 575px) {
+    .col-profile-details .col-left > .col-wrapper {
+        margin-right: 0px;
+    }
+}
+#tab-sync .vendor {
+    margin-top: 20px;
+}
+#divSyncOptions .col-item>.ibox-content {
+    padding: 10px;
+}
+#divSyncOptions .sync-exchange-image {
+    margin-bottom: 20px;
+}
+#divSyncOptions .ibox-content {
+    border-radius: 4px;
+    background: #eaeef2;
+    border: solid 1px #e2e6eb;
+}
+#divSyncOptions .ibox-content.active {
+    background: #d3ebf9;
+}
+#divSyncSummary {
+    margin-top: 20px;
+}
+#divSyncSummary .sync-summary-content table {
+    width: 100%;
+    table-layout: fixed;
+}
+#divSyncSummary .sync-summary-content td {
+    overflow: hidden;
+}
+#divSyncSummary .sync-summary-content td:first-child {
+    width: 150px;
+}
+#divSyncSummary .sync-summary-content td p {
+    margin: 0px;
+}
+#divSyncSummary .sync-log-label {
+    color: #6c757d;
+    font-size: 13px;
+    padding-right: 10px;
+}
+#divUserProfile .tab-content #tab-change-password.tab-pane {
+    width: 320px;
+    max-width: 90%;
+}
+
+/* buttons */
+.btn-success {
+    color: #fff !important;
+}
+.btn-wrapper-upload-profile-image {
+    margin-bottom: 4px;
+}
+.text-button {
+    transition: color .4s ease;
+}
+.fa {
+    margin-right: 5px;
+}
+@media (max-width: 575px) {
+    #divSyncOptions .col-item {
+        margin-bottom: 50px;
+    }
+	
+	#tab-basic{
+		margin-bottom:25px;
+	}
+	#tab-basic .buttons {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		padding: 10px 37px;
+		background: #f7f9fa;
+		z-index:9;
+	}
+	
+	#tab-basic .buttons .col-auto,
+	#tab-basic .buttons  #btnSave{
+		width:100%;
+	}
+}
+@media (min-width: 768px) and (max-width: 1060px) {
+    #divSyncOptions .primary-btn {
+        min-width: 80px;
+    }
+}
+@media (min-width: 576px) and (max-width: 680px) {
+    #divSyncOptions .primary-btn {
+        min-width: 80px;
+    }
+}
+#divUserProfile .btn-log-out {
+    white-space: nowrap;
+    width: 150px;
+    min-width: auto;
+    max-width: 90%;
+}
+
+/* all inputs/labels */
+label.inputLabel {
+    color: #BFCAD7;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
+    position: absolute;
+    left: 11px;
+    background: #fff;
+    top: -6px;
+    padding: 0 2px;
+    z-index: 9;
+    display: none;
+}
+
+.blue-wrap label.inputLabel {
+    background: #f5fbfd;
+}
+
+.grey-wrap label.inputLabel {
+    background: #f7f9fa;
+}
+
+.filled label.inputLabel {
+    display: block;
+}
+
+.form-group {
+    position: relative;
+}
+
+input[type="text"] {
+    height: 38px !important;
+    padding-left: 12px;
+    background: #fff;
+}

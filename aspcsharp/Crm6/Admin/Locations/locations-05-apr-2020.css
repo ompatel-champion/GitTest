@@ -1,0 +1,304 @@
+/* header and mobile nav */
+.locations .top-header {
+    padding-bottom: 0 !important;
+    padding-top: 12px;
+}
+
+.top-header .searchBlock {
+    display: none;
+}
+
+#locationSearch {
+    display: block;
+}
+
+.details-box {
+    padding: 50px;
+    width: 100%;
+    text-align: center;
+    background: white;
+}
+
+
+.top-header h1.page-title {
+    margin: 0px 0px 0px -2px;
+}
+
+.mobile-panel-nav {
+    display: none;
+    padding: 0 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+    .mobile-panel-nav ul.dropdown-nav li:hover {
+        background-color: #1E92D2;
+        box-shadow: none;
+    }
+
+    .mobile-panel-nav ul.nav-tabs li a {
+        border-radius: 0;
+        margin-right: 0;
+    }
+
+input[type="checkbox"]:not(:checked), input[type="checkbox"]:checked {
+    position: relative !important;
+    left: 0px !important;
+}
+
+
+.top-header a#aGlobalSearch {
+    position: absolute;
+    top: 6px;
+    right: 9px;
+    font-size: 14px;
+}
+
+#tblGlobalLocations td img {
+    width: 15px;
+}
+
+
+
+@media (max-width: 768px) {
+    .mobile-panel-nav {
+        display: block;
+    }
+
+    .border-tabs {
+        display: none;
+    }
+}
+
+/* button bar */
+.list-table-btn-bar {
+}
+
+.search-form {
+    margin-left: 10px;
+}
+
+    .search-form #txtKeyword {
+        padding-top: 3px;
+    }
+
+    .search-form #txtGlobalKeyword {
+        padding-top: 3px;
+    }
+
+    .search-form .form-control {
+        height: 34px;
+    }
+
+    .search-form .icon-search {
+        position: absolute;
+        top: 3px;
+        right: 1px;
+    }
+
+    .search-form .search-box input[type="text"] {
+        width: 210px;
+        padding-right: 25px;
+    }
+
+.wrapper .add-new-btn {
+    margin-right: 0;
+}
+
+a.primary-btn {
+    width: 120px;
+    color: #fff !important;
+    height: 34px;
+    margin-left: 10px;
+}
+
+.top-header .add-new-btn {
+    margin-right: 0 !important;
+}
+
+@media (max-width: 600px) {
+    .list-table-btn-bar .descrip {
+        display: none;
+    }
+}
+
+/* list table */
+table.list-table {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    table-layout: fixed;
+}
+
+.list-table table thead {
+    background-color: #fff;
+}
+
+.list-table table tbody tr {
+    cursor: pointer;
+}
+
+.list-table table tr th,
+.list-table table tr td {
+    text-transform: none;
+    cursor: default;
+    overflow: hidden;
+}
+
+.list-table table td:first-child {
+    font-weight: 600;
+}
+
+.list-table table th:nth-child(7) {
+    width: 80px;
+}
+
+.list-table table td:nth-child(7) {
+    text-align: center;
+}
+
+#main td.action-cell a {
+    color: #1e92d2;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#main td.action-cell .delete-item {
+    padding-top: 10px;
+}
+
+.list-table a:hover, .list-table a:focus {
+    text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+    .list-table table th:nth-child(4) {
+        display: none;
+    }
+
+    .list-table table td:nth-child(4) {
+        display: none;
+    }
+
+    table#tblDistricts th:nth-child(4),
+    table#tblDistricts td:nth-child(4) {
+        display: table-cell;
+    }
+
+    table#tblRegions th:nth-child(3),
+    table#tblRegions td:nth-child(3) {
+        display: table-cell;
+    }
+
+    table#tblRegions td:first-child {
+        width: 40% !important;
+    }
+}
+
+@media (max-width: 800px) {
+
+    table#tblRegions td:first-child {
+        width: 60% !important;
+    }
+
+    .list-table table td:first-child {
+        width: 50% !important;
+    }
+
+    .list-table table th:nth-child(5) {
+        display: none;
+    }
+
+    .list-table table td:nth-child(5) {
+        display: none;
+    }
+}
+
+@media (max-width: 565px) {
+
+    .list-table-btn-bar {
+        margin-top: 12px;
+    }
+
+        .list-table-btn-bar .col:first-child {
+            display: none;
+        }
+
+        .list-table-btn-bar .col-auto {
+            width: 100%;
+        }
+
+    .search-form .search-box input[type="text"],
+    .search-box {
+        width: 100% !important;
+        margin-right: 0px;
+    }
+
+    .search-form {
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+
+    .top-header .add-new-btn {
+        margin-right: 0 !important;
+        position: absolute !important;
+        right: 0;
+        top: -73px !important;
+    }
+
+    #districtSearch .list-table-btn-bar,
+    #regionSearch .list-table-btn-bar {
+        margin: 0;
+    }
+
+    #districtSearch .add-new-btn,
+    #regionSearch .add-new-btn {
+        top: -29px !important;
+    }
+
+    .search-form .icon-search {
+        right: 0px;
+    }
+
+    .mobile-panel-nav {
+        margin-bottom: 12px;
+        margin-top: 12px;
+    }
+}
+
+@media (max-width: 440px) {
+    .list-table table th:nth-child(3), .list-table table th:nth-child(2), .list-table table th:nth-child(6) {
+        display: none;
+    }
+
+    .list-table table td:nth-child(3), .list-table table td:nth-child(2), .list-table table td:nth-child(6) {
+        display: none;
+    }
+}
+
+#divDistricts table tbody tr td:first-child {
+    width: 20%;
+}
+
+#divDistricts table tbody tr td:nth-child(2) {
+    width: 15%;
+}
+
+#tblRegions td:first-child {
+    width: 25%;
+}
+
+
+#divManagerCountriesRegions {
+    background: #fff;
+    padding: 15px;
+}
+
+
+#multiselect-container {
+    padding: 15px 0;
+}
+
+.PT100 {
+    padding-top: 100px !important;
+}

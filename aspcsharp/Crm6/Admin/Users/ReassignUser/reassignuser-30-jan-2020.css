@@ -1,0 +1,90 @@
+﻿label {
+    font-weight: 600;
+}
+
+.default-block {
+    background: #fff;
+    box-shadow: 0 1px 8px 0 rgba(33, 37, 41, 0.06);
+    border: solid 1px #e2e6eb;
+    padding: 12px 20px 16px;
+    margin-top: 15px;
+}
+
+.wrapper {
+    max-width: 765px;
+}
+
+.dblk-text {
+    margin-top: 5px;
+}
+
+    .dblk-text b {
+        font-weight: 500;
+        line-height: 25px;
+    }
+
+    .dblk-text span {
+        color: #1E92D2;
+    }
+
+.ru-dropdowns {
+    margin-top: 20px;
+}
+
+    .ru-dropdowns .form-group {
+        margin-top: 5px;
+    }
+
+.explanation {
+    background: #f7f7f7;
+    padding: 15px 20px 1px;
+    margin: 10px 0;
+    border: 1px solid #f1f1f1;
+}
+
+.explanation-details ul {
+    padding-left: 0;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+    .explanation-details ul li {
+        margin: 5px 0;
+        list-style: disc inside;
+        margin-left: 1px;
+    }
+
+.highlight {
+    background-color: #D1EFE9;
+    outline: 1px dashed #999;
+    height: 59px;
+}
+
+.handle {
+    cursor: move;
+}
+
+/* buttons */
+.buttons {
+    margin-top: 5px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+    .buttons .primary-btn {
+        margin-left: 10px;
+    }
+
+.form-btns button {
+    min-width: 150px;
+    height: 38px;
+    float: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+@media (max-width: 440px) {
+    .form-btns button {
+        min-width: 100px;
+    }
+}

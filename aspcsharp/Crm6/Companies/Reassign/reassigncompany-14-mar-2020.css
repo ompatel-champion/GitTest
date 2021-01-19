@@ -1,0 +1,38 @@
+﻿.control-label b {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+ibox {
+    margin-bottom: 0px !important;
+}
+
+.form-btns a {
+    border-radius: 2px;
+    line-height: 35px;
+    max-width: 120px;
+    min-width: 120px;
+}
+
+    .form-btns a.cancel-btn {
+        color: #1e92d2;
+        line-height: 29px;
+    }
+
+        .form-btns a.cancel-btn:hover {
+            color: #fff;
+            border-radius: 2px;
+        }
+
+.footer-action button#btnReassign {
+    float: right;
+}
+
+.secondary-btn, .primary-btn {
+    height: 38px !important;
+    line-height: 28px;
+}
+
+.section-content {
+    max-width: 600px;
+}

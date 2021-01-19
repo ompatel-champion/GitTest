@@ -1,0 +1,258 @@
+﻿
+html {
+    overflow:hidden;
+}
+
+td {
+    padding: 2px 0 2px 0;
+}
+
+.tabsection {
+    height:400px;
+}
+
+.left-column {
+    width: 100px;
+    text-align: left;
+    font-weight: normal;
+    padding-left: 6px;
+}
+
+.contact-name {
+    width: 348px;
+    height: 17px;
+    margin: 2px 0 1px 0;
+    padding: 2px 2px 2px 0;
+}
+
+.company-dropdown {
+    width: 357px;
+}
+
+.quick-add-company {
+    float: right;
+    margin: 5px 5px 0 0;
+}
+
+.title {
+    width: 350px;
+    height: 17px;
+    margin: 1px 0 1px 0;
+    padding: 2px 0 2px 2px;
+}
+
+.email {
+    width: 350px;
+    height: 17px;
+    margin: 1px 0 1px 0;
+    padding: 2px 0 2px 2px;
+}
+
+.right-column {
+    text-align: left;
+    font-weight: normal;
+    padding-left: 6px;
+}
+
+.contacttype-dropdown {
+    width: 250px;
+}
+
+.source {
+    width: 242px;
+    height: 17px;
+    margin: 1px 0 1px 0;
+    padding: 2px 0 2px 2px;
+}
+
+.owner-dropdown {
+    width: 250px;
+}
+
+/* Birthday */
+.birthmonth-dropdown {
+    width: 160px;
+}
+
+.birthday-day {
+    width: 87px;
+}
+
+/* Phones */
+#divPhone {
+    text-align:left;
+    padding-right:2px;
+}
+
+.phone-header {
+    font-weight: bold;
+    border-bottom: solid 1px #d0d0d0;
+    padding: 4px 0 4px 0;
+    margin:6px 0 10px 0;
+    text-align: center;
+}
+
+.phone {
+    width: 130px;
+    height: 17px;
+    font-weight: normal;
+    margin: 1px 0 1px 0;
+    text-align: center;
+}
+
+/* Address Headers */
+.details-header {
+    font-weight:bold;
+    border-bottom: solid 1px #d0d0d0;
+    padding: 4px 0 4px 0;
+    margin:6px 0 10px 0;
+}
+
+/* Address Info */
+
+#divBusinessAddress {
+    float:left;
+    margin: 0 10px 0 0;
+}
+
+#fsBusinessAddress {
+    height:250px;
+    width:300px;
+}
+
+#divHomeAddress {
+    float:left;
+}
+
+#fsHomeAddress {
+    height:250px;
+    width:300px;
+}
+
+.address-label-column {
+    width: 110px;
+    text-align: left;
+    font-weight: normal;
+    padding-left: 6px;
+}
+
+.address-label-column-top {
+    width: 110px;
+    text-align: left;
+    font-weight: normal;
+    padding-left: 6px;
+    vertical-align:text-top;
+}
+
+.address-column {
+    text-align: left;
+    font-weight: normal;
+    padding-left: 6px;
+}
+
+.address {
+    width: 280px;
+    height: 60px;
+    margin: 1px 0 1px 0;
+}
+
+.city {
+    width: 280px;
+    height: 17px;
+    margin: 1px 0 1px 0;
+}
+
+.state {
+    width: 280px;
+    height: 17px;
+    margin: 1px 0 1px 0;
+}
+
+.postal-code {
+    width: 80px;
+    height: 17px;
+    margin: 1px 0 1px 0;
+}
+
+.country-dropdown {
+    width: 290px;
+}
+
+/* Other Info */
+#divOtherInfo {
+    float:left;
+    margin: 0 10px 0 0;
+}
+
+.website {
+    width: 290px;
+    margin: 1px 0 1px 0;
+}
+
+.other-label-column {
+    width: 110px;
+    text-align: left;
+    font-weight: normal;
+    padding-left: 6px;
+    vertical-align:text-top;
+}
+
+.other-label-comments {
+    width: 80px;
+    text-align: left;
+    font-weight: normal;
+    padding-left: 6px;
+    vertical-align:text-top;
+}
+
+.other-column {
+    text-align: left;
+    font-weight: normal;
+    padding-left: 6px;
+}
+
+.children-names {
+    width: 290px;
+    height: 40px;
+    margin: 1px 0 1px 0;
+}
+
+.hobbies {
+    width: 290px;
+    height: 70px;
+    margin: 1px 0 1px 0;
+}
+
+.related-contacts {
+    width: 290px;
+    height: 70px;
+    margin: 1px 0 1px 0;
+}
+
+.spouse-name {
+    width: 290px;
+    height: 17px;
+    margin: 1px 0 1px 0;
+}
+
+#divOtherComments {
+    margin: 1px 0 1px 0;
+    float:left;
+}
+
+/* Comments */
+.comments { 
+    width: 300px; 
+    height: 308px;
+}
+
+/* Buttons */
+.bottom-buttons {
+    width: 98%;
+    margin: 10px 0 0 0;
+    /* border-top: solid 1px #beb9b9; */
+    padding:10px 0 10px 0;
+    float: right;
+    text-align: right;
+}
+

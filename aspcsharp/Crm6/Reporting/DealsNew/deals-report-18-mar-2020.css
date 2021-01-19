@@ -1,0 +1,210 @@
+﻿/* alignments */
+.center,
+.align-center {
+    text-align: center !important;
+}
+
+.align-left {
+    text-align: left !important;
+}
+
+.align-right {
+    text-align: right !important;
+}
+
+.align-justify {
+    text-align: justify;
+}
+
+.middle {
+    vertical-align: middle;
+}
+
+.align-middle {
+    vertical-align: middle !important;
+}
+
+.align-top {
+    vertical-align: top !important;
+}
+
+.align-bottom {
+    vertical-align: bottom !important;
+}
+
+h1.page-title {
+	margin-bottom: -5px!important;
+	margin-top: 9px;
+}
+
+h1.page-title  .bread_crumb {
+	float: none;
+	display: inline-block;
+	font-weight: normal;
+	margin-left:10px;
+}
+
+.form-group {
+	position: relative;
+}
+
+label.inputLabel {
+    color: #bbb;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
+    position: absolute;
+    left: 11px;
+    background: #fff;
+    top: -6px;
+    padding: 0 2px;
+    z-index: 99;
+}
+
+.wrapper-content{
+	max-width:1070px;
+}
+
+.ddlCurrency .select2-selection--single{
+	border:0!important;
+}
+
+.ddlCurrency .select2-selection--single .select2-selection__placeholder,
+.ddlCurrency .select2-selection--single .select2-selection__rendered{
+	color: #1E92D2!important;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+	text-align: left;
+}
+
+div.ddlCurrency .select2-selection--single .select2-selection__arrow b::before {
+	color: #1E92D2;
+	top: -5px;
+	right: 45px;
+	font-size:7px;
+}
+
+div.section-body .select2-container--classic .select2-selection--multiple, 
+div.section-body .select2-container .select2-selection--single {
+	border-radius: 4px!important;
+	height: 36px!important;
+}
+
+.date-input .icon-calendar {
+	position: absolute;
+	bottom: 10px;
+	right: 8px;
+	color: #1e92d2;
+	background: #fff;
+}
+
+div.section-body  .date-input input{
+	height:36px!important;
+	border-radius: 4px!important;
+}
+
+.btwtext {
+	position: absolute;
+	font-size: 10px;
+	color: #A2AFBD;
+	right: -8px;
+	top: 10px;
+}
+
+.add-filter {
+	color: #1E92D2 !important;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px !important;
+	text-align: left;
+	border: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.filterFields{
+	
+}
+
+.filterFields .select2-container--classic .select2-selection--multiple {
+	min-height: 36px;
+}
+
+a.deleteFilter {
+	font-size: 12px;
+	color: #a2afbd !important;
+	display: inline-block;
+	margin-right: 8px;
+	cursor: pointer;
+}
+
+a.deleteFilter+select+.select2{
+	width:calc(100% - 20px)!important;
+}
+
+#btnRunReport{
+	min-width:100%;
+}
+
+
+/* report settings drop down div */
+#report-settings > ul {
+    padding: 8px;
+}
+
+#report-settings > ul > li {
+	width: 310px !important;
+}
+
+#report-settings > ul > li > .form-group .select2 {
+	width: 100% !important;
+}
+
+#divAdvancedFilter .nav {
+    border-right: none !important;
+}
+
+.ibox-content {
+    padding:20px;
+    background-color: white;
+}
+
+
+@media (max-width: 767px) {
+	.ddlCurrency{
+		margin-top:-14px;
+	}
+
+	#btnRunReport{
+		margin-bottom:15px;
+	}
+	
+	.dateFrom{
+		margin-top:15px;
+	}
+	
+	.btwtext{
+		display:none;
+	}
+	
+	.filterFields div[class^="col-md"]{
+		margin-bottom:15px;
+	}
+	
+	.panel-heading{
+		margin-top:-25px !important;
+	}
+}
+
+#tblDealsReport {
+	max-width: 210%;
+	width: 210%;
+}
+
+#divReportContent .ibox-content {
+	overflow-x: scroll;
+	background-color: #ffffff !important;
+	color: inherit;
+	padding: 20px 35px;
+}

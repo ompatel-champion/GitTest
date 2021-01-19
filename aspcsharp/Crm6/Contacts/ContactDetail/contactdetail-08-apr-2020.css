@@ -1,0 +1,245 @@
+.page-title-sub {
+    color: #6D7B8C;
+    font-size: .6em;
+    font-weight: 600;
+}
+
+.empty_activity{
+	padding-bottom: 30px;
+	background: #fff;
+	border-radius: 4px;
+}
+
+div.empty_activity p{
+	margin-bottom:0 !important;
+}
+
+.top-header .panel-heading {
+    padding-top: 9px;
+}
+
+.detail-pg .deal-table a.hover-link {
+	font-size: 12px;
+}
+
+#divContactImg {
+    margin-right: 10px;
+}
+
+.detail-pg .user-thumb img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.detail-pg .ibox .ibox-content.empty-box {
+	padding: 22px 20px 26px;
+}
+
+.top-header .head_info {
+	margin-top: -4px;
+	position: relative;
+}
+
+.head_info label.sub-title{
+	margin-bottom:0;
+}
+
+.head_info div.sub-title{
+	margin-bottom:3px;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-group {
+    /*margin-bottom: 0 !important;*/
+}
+
+label.inputLabel {
+    color: #bbb;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
+    position: absolute;
+    left: 11px;
+    background: #fff;
+    top: -6px;
+    padding: 0 2px;
+    z-index: 99;
+    display: none;
+}
+
+.title-blue {
+    color: #1e92d2;
+    font-size: 18px;
+}
+
+.filled label.inputLabel {
+    display: block;
+}
+
+
+.detail-pg .add-task button.ui-datepicker-trigger {
+    right: 12px !important;
+    top: 8px !important; 
+}
+
+.detail-pg table.activity-table th:nth-child(3) {
+	width: 17% !important;
+}
+
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+    .wrapper-content {
+        width: 1500px;
+    }
+}
+
+.head_info .sub-title {
+    margin-top: -4px;
+}
+
+.head_info .sub-title span {
+	color: #3e4955;
+}
+
+.head_info .sub-title span i {
+	color: #768493;
+	font-size: 15px;
+	margin-right: 7px;
+	position: relative;
+	top: 1px;
+	width: 15px;
+	display: inline-block;
+}
+
+.head_info .sub-title span i .icon-map-pin {
+	font-size: 16px;
+}
+
+.head_info .sub-title span i.icon-email {
+	width: 14px;
+	height: 13px;
+	background-size: contain;
+	display: inline-block;
+	top: 2px;
+	font-size: 14px;
+	color: #6d7b8c;
+}
+
+.head_info .sub-title span a {
+	color: #1e92d2;
+}
+
+.head_info .sub-title span.usr-phn a {
+	color: #3e4955;
+}
+
+div.ui-datepicker {
+    display: none;
+}
+
+#main .border-status {
+    color: white;
+}
+
+/* overview tab - details card */
+.overview-checks {
+    max-width: 300px;
+}
+#main .overview-checks .left-col {
+    padding-right: 10px;
+}
+.overview-checks .label {
+    position: relative;
+    min-height: 100%;
+    color: #6D7B8C;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+.overview-checks .check {
+    width: 14px;
+    height: 14px;
+    margin: 1px 4px 0px 0px;
+    border: solid 1px #bfcad7;
+    border-radius: 3px;
+    background: no-repeat center/10px 10px;
+}
+.overview-checks .check-on {
+    background-image: url(/_content/_img/icons/temp-check.png);
+}
+.detail-pg #tab-overview .ibox-content .outer-wrp:nth-of-type(2n+1) {
+    background-color: #f7f9fa;
+}
+
+@media (max-width: 1000px) {
+	.detail-pg table.activity-table thead th:first-child {
+		width: 210px !important;
+	}
+	.detail-pg table.activity-table thead th:nth-child(2) {
+		width: 7% !important;
+	}
+}
+
+@media (max-width: 768px) 
+{	
+	.dealList {
+        overflow-x: auto;
+		margin-top: 0 !important;
+        width: 100%;
+        padding-bottom: 15px;
+    }
+	body.detail-pg .dealList .col-left-box {
+        padding-right: 7.5px !important;
+    }
+
+    body.detail-pg .dealList .col-right-box {
+        padding-left: 7.5px !important;
+    }
+
+    body.detail-pg .dealList .col-mid-box {
+        padding-left: 7.5px !important;
+        padding-right: 7.5px !important;
+    }
+}
+
+@media (max-width: 767px) {
+	.list-table {
+		overflow-x: auto;
+		width: 100%;
+		padding-bottom: 15px;
+	}
+	.list-table table.activity-table {
+		width: 100%;
+		min-width: 750px;
+		margin-bottom: 0;
+	}
+}
+	
+@media (max-width: 650px) {
+    .detail-pg .top-header .sub-title {
+        margin-top: -2px;
+    }
+
+    .head_info .sub-title span {
+        display: block;
+        margin-top: 5px;
+    }
+
+    .head_info span.dash,
+    .head_info span.separator {
+        display: none;
+    }
+}
+
+@media (max-width: 499px) {
+    .head_info .user-thumb {
+        display: block;
+        float: none;
+        text-align: center;
+    }
+}

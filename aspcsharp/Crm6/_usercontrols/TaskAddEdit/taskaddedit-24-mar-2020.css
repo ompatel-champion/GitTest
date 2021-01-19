@@ -1,0 +1,39 @@
+﻿.modal-dialog .icon-calendar {
+    position: absolute;
+    bottom: -17px;
+    right: -1px;
+    color: #1e92d2;
+    background: #fff;
+}
+
+.modal-dialog .form-group textarea {
+    background: transparent !important;
+}
+
+.modal-header {
+    padding: 10px 1rem !important;
+}
+
+.modal-title {
+    margin-top: -2px;
+}
+
+#addTaskDialog .footer-action {
+    border: 0;
+    margin-top: -15px;
+}
+
+.modal-dialog label.inputLabel {
+    display: inline-block;
+    color: #BFCAD7;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
+    position: absolute;
+    left: 11px;
+    background: #fff;
+    top: -6px;
+    padding: 0 2px;
+    z-index: 9;
+}

@@ -1,0 +1,20 @@
+{
+  "short_name": "First Freight CRM ",
+  "name": "First Freight CRM",
+  "theme_color": "#1e92d2",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "_content/_img/launcher-icon-1x.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "_content/_img/launcher-icon-2x.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    }
+  ],
+  "start_url": "/?utm_source=launcher"
+}

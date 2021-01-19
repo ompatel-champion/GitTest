@@ -1,0 +1,34 @@
+﻿.nav-wizard > li { float: left; }
+.nav-wizard > li > a { white-space: nowrap; position: relative; background-color: #bbbbbb; text-align: center; color: #fff; font-weight: normal; padding: 14px 20px 15px 20px; cursor: default; }
+.nav-wizard > li > a .badge { margin-left: 3px; color: #fff; background-color: #1ab394; }
+.nav-wizard > li:not(:first-child) > a { padding-left: 34px; }
+
+.nav-wizard > li:not(:first-child) > a:before { width: 0px; height: 0px; border-top: 24px inset transparent; border-bottom: 24px inset transparent; border-left: 24px solid #ffffff; position: absolute; content: ""; top: 0; left: 0; }
+.nav-wizard > li:not(:last-child) > a { margin-right: 6px; }
+.nav-wizard > li:not(:last-child) > a:after { width: 0px; height: 0px; border-top: 24px inset transparent; border-bottom: 24px inset transparent; border-left: 24px solid #bbbbbb; position: absolute; content: ""; top: 0; right: -24px; z-index: 2; }
+
+.nav-wizard > li:first-child > a { border-top-left-radius: 4px; border-bottom-left-radius: 4px; }
+.nav-wizard > li:last-child > a { border-top-right-radius: 4px; border-bottom-right-radius: 4px; }
+
+/*active*/
+.nav-wizard > li.active > a,
+.nav-wizard > li.active > a:hover,
+.nav-wizard > li.active > a:focus { background-color: #1ab394; }
+.nav-wizard > li.active > a:after { border-left-color: #1ab394; }
+
+/*done*/
+.nav-wizard > li.done > a,
+.nav-wizard > li.done > a:hover,
+.nav-wizard > li.done > a:focus { background-color: rgba(26, 179, 148, 0.7); }
+.nav-wizard > li.done > a:after { border-left-color: rgba(26, 179, 148, 0.7); }
+
+.nav-wizard > li.active { background: none; border: none; }
+.nav-wizard > li > a:hover,
+.nav-wizard > li > a:focus { background-color: #bbbbbb; }
+
+/*number*/
+.nav-wizard > li > a span { margin-right: 5px; }
+.nav-wizard > li > a span:after { content: '.'; }
+
+@media (max-width: 768px) {
+}

@@ -1,0 +1,322 @@
+﻿/* alignments */
+.center,
+.align-center {
+    text-align: center !important;
+}
+
+.align-left {
+    text-align: left !important;
+}
+
+.align-right {
+    text-align: right !important;
+}
+
+.align-justify {
+    text-align: justify;
+}
+
+.middle {
+    vertical-align: middle;
+}
+
+.align-middle {
+    vertical-align: middle !important;
+}
+
+.align-top {
+    vertical-align: top !important;
+}
+
+.align-bottom {
+    vertical-align: bottom !important;
+}
+
+#content .wrapper-content{
+	background-color: #FFFFFF;
+	border: 1px solid #E2E6EB;
+	box-shadow: 0 1px 8px 0 rgba(33, 37, 41, 0.05999999865889549);
+	border-radius: 0;
+	margin-top: 16px;
+}
+
+div.filter-wrap button[type="button"] {
+	left: 0px;
+	margin-left: -1px;
+	border-radius:0;
+}
+
+#divSalesStageButtons button[type="button"] {
+	color: #1E92D2;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 28px;
+	text-transform: uppercase;
+	width: 16.71%;
+	height: 50px;
+	box-shadow: 0 1px 8px 0 rgba(33, 37, 41, 0.05999999865889549);
+}
+
+#divSalesStageButtons button[type="button"]:first-child{
+	border-left:1px solid transparent;
+}
+
+#divSalesStageButtons button[type="button"]:last-child{
+	border-right:1px solid transparent;
+}
+
+div.filter-wrap button.active{
+	background:#1f92d2!important;
+	color:#fff!important;
+}
+
+#divYearsVsMonthly button[type="button"]{
+	float:left;
+}
+
+#ddlCurrency + .select2-container .select2-selection.select2-selection--single {
+	border: 0;
+}
+#ddlCurrency + .select2-container .select2-selection__rendered {
+	color: #1E92D2;
+	font-weight: 400;
+	text-align: right;
+	padding-right: 15px!important;
+	font-size: 12px;
+}
+
+.currency-col{
+	margin-right:40px;
+}
+
+.currency-col  .select2-container--default .select2-selection--single .select2-selection__arrow b::before {
+	font-size: 7px;
+	color: #5eb2df;
+	top: -2px;
+	right: -8px;
+}
+
+.currency-col .select2-container--default .select2-selection--single .select2-selection__arrow b::before {
+	font-size: 7px;
+	color: #5eb2df;
+	top: -2px !important;
+	right: -8px;
+}
+
+.currency-col .form-group{
+	margin-bottom:1px;
+}
+
+.panel-options a span i{
+	font-size: 8px;
+	margin-left: 2px;
+}
+
+#btnRunReport{
+	float:right;
+	border-radius: 4px;
+}
+
+#btnExcel {
+	background:#1d6f42;
+	border-radius: 4px;
+	min-width: 112px;
+	float: right;
+	margin-right: 10px;
+}
+
+#divAdvancedFilter{
+	margin-top:5px;
+}
+
+.footer-actions h4.total-record-count {
+	margin-bottom: 0;
+	font-size: 17px;
+	color: #0e76bc;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 9px;
+}
+
+.row.footer-actions {
+	background: #f3f5f6;
+	margin: 10px -20px 0;
+	padding: 15px 5px;
+}
+
+/* report settings drop down div */
+#report-settings > ul {
+    padding: 8px;
+}
+
+#report-settings > ul > li {
+	width: 310px !important;
+}
+
+#report-settings > ul > li > .form-group .select2 {
+	width: 100% !important;
+}
+
+#advanced-filter-tab {
+    cursor: pointer;
+	font-size: 13px;
+}
+
+#divAdvancedFilter .nav {
+    border-right: none !important;
+}
+
+.ibox-content {
+    padding: 20px;
+    background-color: white;
+}
+
+form input[type="text"] {
+    height: 38px !important;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-group.filter-wrap {
+	margin-top: -21px;
+	margin-left: -4px;
+	width: calc(100% + 10px);
+	margin-right: -6px;
+	margin-bottom: 5px;
+}
+
+label.inputLabel {
+    color: #bbb;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
+    position: absolute;
+    left: 11px;
+    background: #fff;
+    top: -6px;
+    padding: 0 2px;
+    z-index: 99;
+    display: none;
+}
+
+.filled label.inputLabel {
+    display: block;
+}
+
+button.primary-btn{
+	border-radius:2px;
+	min-width:112px;
+}
+
+div.list-table{
+	overflow-x:scroll;
+}
+
+div.list-table table {
+	min-width: 2515px;
+	table-layout: fixed;
+}
+
+div.list-table table tr th {
+	padding: 12px 7px;
+	word-break: break-all;
+	letter-spacing:0px;
+}
+
+div.list-table table td {
+	padding: 5px 7px;
+	word-break: break-all;
+}
+
+.input-group i {
+    right: 10px;
+    position: absolute;
+    top: 10px;
+}
+
+
+@media (max-width: 1149px) {
+    #divBasicFilter .select2{
+		width:92%!important;
+	}
+}
+
+@media (max-width: 991px) {
+	#divBasicFilter .select2{
+		width:100%!important;
+	}
+}
+
+@media (max-width: 609px) {
+	#divSalesStageButtons button {
+		padding: 5px 5px;
+		min-width: 49px;
+	}
+}
+
+@media (max-width: 575px) 
+{
+	#divToolbar{
+		margin-top: 4px;
+		text-align: left;
+		margin-bottom: 5px;
+	}
+	
+	#divToolbar .primary-btn{
+		float:none !important;
+	}
+	
+	#btnExcel{
+		margin-left:10px;
+		margin-right:0;
+	}
+	
+	.footer-actions h4.total-record-count{
+		margin-top:0px;
+	}
+	
+	.footer-actions h4.total-record-count span{
+		margin-bottom:5px;
+		display:block;
+	}
+}
+
+@media (max-width: 565px) 
+{
+	#divSalesStageButtons button[type="button"] {
+		font-size: 13px;
+		height: 40px;
+	}
+	
+	.form-group.filter-wrap {
+		margin-top: -23px;
+	}
+
+	#divYearsVsMonthly{
+		margin-right:0px;
+		float:left;
+	}
+	.currency-col{
+		margin-right:15px;
+	}
+}
+
+@media (max-width: 489px) 
+{
+	.currency-col{
+		margin-right:0px;
+		margin-top:5px;
+		display:block;
+	}
+}
+
+@media (max-width: 450px) 
+{
+	#divSalesStageButtons button[type="button"] {
+		font-size: 10px;
+	}
+}

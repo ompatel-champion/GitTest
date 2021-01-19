@@ -1,0 +1,200 @@
+﻿/* Tasks Tab */
+.detail-pg .task-listing .ibox,
+.detail-pg .task-listing .ibox .tasks,
+.detail-pg .task-listing .ibox .tasks .task-form,
+.detail-pg .task-listing .ibox .tasks .task-items {
+    height: 100%;
+}
+
+    .detail-pg .task-listing .ibox .ibox-title {
+        padding: 6px 2px 6px 20px;
+    }
+
+.detail-pg .task-listing .title-wrap {
+    margin-top: 5px;
+}
+
+.detail-pg .task-wrap {
+    padding: 12px 15px 12px 48px;
+    position: relative;
+    border-bottom: 2px solid #eef1f4;
+}
+
+    .detail-pg .task-wrap .left-tbox {
+        width: 50%;
+        float: left;
+    }
+
+    .detail-pg .task-wrap .right-tbox {
+        width: 38%;
+        margin-top: 25px;
+    }
+
+.detail-pg .task-listing .filter-wrap a {
+    cursor: pointer;
+}
+
+.detail-pg .task-listing .filter-wrap a.active:hover {
+    color: white;
+}
+
+.detail-pg .task-wrap .ta-title,
+.detail-pg .task-wrap .ta-guest-wrp {
+    position: relative;
+    padding-left: 32px;
+    padding-right: 25px;
+}
+
+.detail-pg .task-wrap .ta-guest-wrp {
+    margin-top: 12px;
+}
+
+.detail-pg .task-wrap .ta-gtitle a {
+    color: #1e92d2;
+}
+
+.detail-pg .task-wrap .ta-title::before {
+    content: "\e908";
+    position: absolute;
+    width: 13px;
+    height: 14px;
+    left: 8px;
+    top: 1px;
+    font-family: icomoon;
+    font-weight: 300;
+    color: #888;
+    font-size: 15px;
+}
+
+.detail-pg .task-wrap .ta-guest-wrp::before {
+    content: '\e906';
+    position: absolute;
+    width: 13px;
+    height: 14px;
+    left: 8px;
+    top: 1px;
+    font-family: icomoon;
+    font-weight: 300;
+    color: #888;
+    font-size: 15px;
+}
+
+.detail-pg .task-wrap a.edit-link,
+.detail-pg .task-wrap a.delete-link {
+    position: absolute;
+    top: 10px;
+    right: 38px;
+}
+
+.detail-pg .task-wrap a.delete-link {
+    right: 15px;
+}
+
+.detail-pg .task-wrap .task-day,
+.detail-pg .task-wrap .ta-meta {
+    color: #8f959b;
+    font-size: 13px;
+}
+
+.detail-pg .task-wrap a.task-title {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.detail-pg .add-task {
+    margin-top: 3px;
+}
+
+    .detail-pg .add-task input.task-name {
+        margin-bottom: 15px;
+    }
+
+    .detail-pg .add-task input[type="text"] {
+        height: 38px;
+        padding-left: 10px;
+    }
+
+    .detail-pg .add-task textarea {
+        background: transparent;
+        height: 104px;
+        padding-bottom: 10px;
+        margin-top: 0px;
+        padding-left: 10px;
+        border: 1px solid #bfcad7;
+        margin-bottom: 13px;
+    }
+
+    .detail-pg .add-task .task-fields {
+        padding-bottom: 20px;
+    }
+
+        .detail-pg .add-task .task-fields .row {
+            margin-top: 15px;
+        }
+
+            .detail-pg .add-task .task-fields .row:first-child {
+                margin-top: 0;
+            }
+
+    .detail-pg .add-task .input-label {
+        margin-bottom: 5px;
+        font-size: 13px;
+    }
+
+    .detail-pg .add-task button.ui-datepicker-trigger {
+        position: absolute;
+        right: 18px;
+        top: 34px;
+        background: transparent;
+        border: 0;
+        padding: 0;
+        cursor: pointer;
+        outline: none;
+    }
+
+        .detail-pg .add-task button.ui-datepicker-trigger i {
+            color: #6d7b8c
+        }
+
+    .detail-pg .add-task .primary-btn {
+        margin-bottom: 5px;
+        width: 100%;
+        float: none !important;
+    }
+
+    .detail-pg .add-task .primary-btn,
+    .detail-pg .add-document .primary-btn,
+    .detail-pg .add-note #note-add-actions a {
+        max-width: 250px;
+        margin: 0 auto 5px;
+        display: block;
+    }
+
+.detail-pg p.task-title {
+    color: #3e4955;
+    font-size: 18px;
+    margin-bottom: 0 !important;
+}
+
+.detail-pg .task-wrap .right-tbox {
+    width: 40%;
+    margin-right: 25px;
+    margin-top: 0 !important;
+}
+
+@media (max-width: 1199px) {
+    .detail-pg .add-task button.ui-datepicker-trigger {
+        right: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .detail-pg #tab-tasks .col-right-box {
+        margin-top: 15px;
+    }
+
+    .detail-pg .add-task button.ui-datepicker-trigger {
+        right: 25px;
+    }
+}

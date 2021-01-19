@@ -1,0 +1,9 @@
+﻿.location-box {
+    min-height: 216px !important;
+}
+
+@media screen and (max-width:768px) {
+    .location-box {
+        text-align: center !important;
+    }
+}
